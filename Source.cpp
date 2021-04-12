@@ -69,7 +69,7 @@ int main()
 	fill_random(Arr, 1, 100);
 	print(Arr);
 
-	for (int i = N / 2; i >= 0; i--)
+	for (int i = N / 2 - 1; i >= 0; i--)
 	{
 		heapify(Arr, N, i);
 	}
